@@ -397,6 +397,8 @@ animations = [{
 radius = 7.0
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 5
 script = ExtResource("1_6avc5")
 current_tool = 3
 
