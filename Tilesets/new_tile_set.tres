@@ -463,12 +463,6 @@ texture = ExtResource("4_1hh8g")
 7:3/0 = 0
 6:3/0 = 0
 5:3/0 = 0
-8:3/0 = 0
-8:2/0 = 0
-3:0/0 = 0
-3:1/0 = 0
-4:1/0 = 0
-4:0/0 = 0
 5:4/0 = 0
 6:4/0 = 0
 7:4/0 = 0
@@ -478,6 +472,13 @@ texture = ExtResource("4_1hh8g")
 1:3/0 = 0
 0:3/0 = 0
 5:2/0 = 0
+3:0/size_in_atlas = Vector2i(2, 2)
+3:0/0 = 0
+3:0/0/y_sort_origin = 8
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4, 8, 3.5, 8, 4.5, 14.5, -4.5, 14.5)
+8:2/size_in_atlas = Vector2i(1, 2)
+8:2/0 = 0
+8:2/0/y_sort_origin = 9
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_f7xdo"]
 resource_name = "Large_House"
@@ -493,6 +494,7 @@ scenes/1/scene = ExtResource("7_i01l7")
 scenes/2/scene = ExtResource("8_ptev2")
 
 [resource]
+physics_layer_0/collision_layer = 1
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Grass"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
