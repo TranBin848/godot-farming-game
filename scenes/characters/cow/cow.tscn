@@ -58,6 +58,7 @@ animations = [{
 radius = 7.07107
 
 [node name="Cow" type="CharacterBody2D"]
+collision_layer = 64
 script = ExtResource("1_j7g5r")
 min_walk_cycle = 3
 max_walk_cycle = 7

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="farmgame"
-run/main_scene="uid://cghm6tdwvtu77"
+run/main_scene="uid://bffm4ohx7ip1q"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -33,6 +33,10 @@ folder_colors={
 "res://scenes/": "green",
 "res://scripts/": "blue"
 }
+
+[global_group]
+
+navigation_polygon_source_geometry_group=""
 
 [input]
 
@@ -72,6 +76,7 @@ hit={
 2d_physics/layer_4="Tool"
 2d_physics/layer_5="Object"
 2d_physics/layer_6="Collectable"
+2d_physics/layer_7="NPC"
 
 [rendering]
 
