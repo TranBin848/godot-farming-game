@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="farmgame"
-run/main_scene="uid://l53pba3j13o6"
+run/main_scene="uid://dt4ut4p74vqhu"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 ToolManager="*res://scripts/globals/tool_manager.gd"
+InventoryManager="*res://scripts/globals/inventory_manager.gd"
 
 [display]
 

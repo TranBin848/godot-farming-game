@@ -14,6 +14,7 @@ radius = 4.0
 texture = SubResource("AtlasTexture_dgxlj")
 
 [node name="CollectableComponent" parent="." instance=ExtResource("2_oca81")]
+collectable_name = "stone"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CollectableComponent"]
 shape = SubResource("CircleShape2D_k7uky")
