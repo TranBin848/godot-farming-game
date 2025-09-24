@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="farmgame"
-run/main_scene="uid://dt4ut4p74vqhu"
+run/main_scene="uid://cvhe7l8sikjhv"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 ToolManager="*res://scripts/globals/tool_manager.gd"
 InventoryManager="*res://scripts/globals/inventory_manager.gd"
+DayAndNightCycleManager="*res://scripts/globals/day_and_night_cycle_manager.gd"
 
 [display]
 
